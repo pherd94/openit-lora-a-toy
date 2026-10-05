@@ -1,0 +1,21 @@
+# 우석님 데이터 패키지와 거기서 만든 학습 데이터 (scripts/prepare_data.py로 다시 생성)
+labeled_questionnaire_100_handoff/
+dataset/
+prepared/
+
+# 데이터가 노트북 안에 압축돼 들어가는 버전과 Colab 업로드 묶음
+notebooks/*_selfcontained.ipynb
+*.zip
+
+# 예측·분석 결과 (데이터의 사용자 발화가 들어 있음), 어댑터
+results/
+lora_a_*/
+
+# 내부 문서, 작업 폴더, 가상환경
+reports/
+_workspace/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
